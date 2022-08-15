@@ -9,13 +9,10 @@ int main()
 
     auto declarationNode = doc.append_child(node_declaration);
     declarationNode.append_attribute("version") = "1.0";
-    declarationNode.append_attribute("encoding") = "ISO-8859-1";
-    declarationNode.append_attribute("standalone") = "yes";
+    declarationNode.append_attribute("encoding") = "UTF-8";
 
-    // add node with some name
     xml_node node = doc.append_child("EmployeeList");
 
-    // add description node with text child
     xml_node emp = node.append_child("employee");
     xml_node name = emp.append_child("Name");
     name.append_child(node_pcdata).set_value("M Awais Shafi");
