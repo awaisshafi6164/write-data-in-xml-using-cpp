@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<EmployeeList>
+	<employee>
+		<Name>M Awais Shafi</Name>
+		<Salary>10,000</Salary>
+		<Position>Full-end Developer</Position>
+	</employee>
+	<employee>
+		<Name>Arslan Shafi</Name>
+		<Salary>20,000</Salary>
+		<Position>Electric Engineer</Position>
+	</employee>
+</EmployeeList>
